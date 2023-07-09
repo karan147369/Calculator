@@ -1,0 +1,44 @@
+#container{
+    height: 75vh;
+    min-height: 500px;
+    min-width: 400px;
+    width: 30vw;
+    margin: auto;
+    margin-top :20vh;
+    border: 2px solid red;
+}
+#display{
+    height: 20%;
+    min-height: 100px;
+    background-color: #E4DADB;
+    
+}
+#options{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+#options div{
+    width:7.5vw;
+    box-sizing: border-box;
+    height: 12vh;
+    border: 1px solid #E4DADB;
+    background-color: #FFFEF9;
+    
+}
+#options div p{
+    color: black;
+    font-size: 2.2rem;
+    font-weight: bolder;
+    text-align: center;
+}
+#zero{
+    flex-grow: 1;
+}
+#display-area{
+    display: inline-block;
+    width: 100%;
+    text-align: right;
+    font-size: 2.5rem;
+    /* overflow-wrap: break-word; */
+}
